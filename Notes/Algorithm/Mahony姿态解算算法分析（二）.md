@@ -116,8 +116,8 @@ b_{z}
  = 
  \left[\begin{array}{lll}
  \sqrt{h_{x}^{2}+h_{y}^{2}}\\
- 0\\
- h_z
+ \qquad0\\
+ \qquad h_z
  \end{array}\right]
 $$
 现在可以通过向量外积计算理论向量与实际向量的误差了吗？**还不行**，因为我们的实际磁场向量 $\overline{\boldsymbol{m}}$ 以机体坐标系 $\hat{\boldsymbol{x}}'$  $\hat{\boldsymbol{y}}'$  $\hat{\boldsymbol{z}}'$ 为基，而刚刚计算出的理论磁场向量 $\hat{\boldsymbol{m}}$ 是以地理坐标系的 $\hat{\boldsymbol{x}}$  $\hat{\boldsymbol{y}}$  $\hat{\boldsymbol{z}}$ 为基的，因此我们还需要将 $\hat{\boldsymbol{m}}$ 通过矩阵 $C_{R}^{b}$ 转换到机体坐标系：
